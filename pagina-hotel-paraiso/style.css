@@ -47,5 +47,31 @@ header nav {
 }
 
 .hero {
+  background-image: url(images/hero.jpg);
+  background-size: cover;
+  min-height: 85vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.hero h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.hero .btn {
+  background-color: white;
+  border-radius: 4px;
+  color: #191c03;
+  padding: 20px 50px;
+  text-transform: uppercase; 
 }
